@@ -1,0 +1,43 @@
+{
+  "name": "probot-messages",
+  "version": "0.1.0",
+  "description": "A Probot extension for communicating with repository maintainers.",
+  "author": "Armin Sebastian",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/dessant/probot-messages.git",
+    "type": "git"
+  },
+  "bugs": "https://github.com/dessant/probot-messages/issues",
+  "main": "src/index.js",
+  "scripts": {
+    "docs": "documentation lint && documentation readme --markdown-toc false -c docs.yml -s API",
+    "update": "ncu --upgrade --upgradeAll && yarn",
+    "push": "git push --follow-tags origin master",
+    "release": "standard-version && yarn run push"
+  },
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "documentation": "^8.0.2",
+    "npm-check-updates": "^2.14.2",
+    "standard-version": "^4.4.0"
+  },
+  "engines": {
+    "node": "^8.9",
+    "npm": "^5.6"
+  },
+  "keywords": [
+    "github",
+    "issues",
+    "comments",
+    "messages",
+    "notifications",
+    "automation",
+    "github app",
+    "probot",
+    "probot app",
+    "bot"
+  ]
+}
