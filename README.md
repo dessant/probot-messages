@@ -1,6 +1,7 @@
 # Probot Messages
 
-[![npm](https://img.shields.io/npm/v/probot-messages.svg?style=flat-square&colorB=007EC6)](https://www.npmjs.com/package/probot-messages)
+[![Build Status](https://img.shields.io/travis/com/dessant/probot-messages/master.svg)](https://travis-ci.com/dessant/probot-messages)
+[![Version](https://img.shields.io/npm/v/probot-messages.svg?colorB=007EC6)](https://www.npmjs.com/package/probot-messages)
 
 A [Probot](https://github.com/probot/probot) extension for communicating with
 repository maintainers. It's used for delivering messages that
