@@ -20,7 +20,7 @@
     "src"
   ],
   "devDependencies": {
-    "documentation": "^8.0.2",
+    "documentation": "^8.1.2",
     "npm-check-updates": "^2.14.2",
     "standard-version": "^4.4.0"
   },
