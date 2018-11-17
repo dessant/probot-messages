@@ -22,6 +22,7 @@
   "devDependencies": {
     "documentation": "^8.1.2",
     "npm-check-updates": "^2.14.2",
+    "prettier": "^1.15.2",
     "standard-version": "^4.4.0"
   },
   "engines": {
