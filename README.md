@@ -18,7 +18,7 @@ please consider contributing with [Patreon](https://www.patreon.com/dessant),
 ## How It Works
 
 A new issue is opened for messages that don't already have an open issue,
-otherwise an update is posted optionally on the existing issue
+otherwise an optional update is posted on the existing issue
 in the form of a comment.
 
 ## Usage
@@ -100,7 +100,8 @@ Messages repository maintainers by submitting an issue.
 -   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** options (optional, default `{}`)
     -   `options.update` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** update to post as a comment, `{appName}`
           and `{appUrl}` are optional placeholders, no update is posted if the value
-          is [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) (optional, default `''`)
+          is [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+          or the issue is locked (optional, default `''`)
     -   `options.updateAfterDays` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)?** post update only if the issue
           had no activity in this many days (optional, default `7`)
     -   `options.owner` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** owner of the repository

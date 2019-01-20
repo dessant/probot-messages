@@ -33,6 +33,7 @@ class Message {
  * @param {string} [options.update] update to post as a comment, `{appName}`
  *   and `{appUrl}` are optional placeholders, no update is posted if the value
  *   is {@link https://developer.mozilla.org/en-US/docs/Glossary/Falsy|falsy}
+ *   or the issue is locked
  * @param {number} [options.updateAfterDays] post update only if the issue
  *   had no activity in this many days
  * @param {string} [options.owner] owner of the repository
@@ -64,7 +65,7 @@ async function sendMessage(
   }
 
   if (!owner || !repo) {
-    var {owner, repo} = context.repo();
+    ({owner, repo} = context.repo());
   }
 
   const appGh = await app.auth();
