@@ -12,8 +12,8 @@ configuring the app after installation, or fixing configuration errors.
 
 The continued development of Probot Messages is made possible
 thanks to the support of awesome backers. If you'd like to join them,
-please consider contributing with [Patreon](https://goo.gl/qRhKSW),
-[PayPal](https://goo.gl/5FnBaw) or [Bitcoin](https://goo.gl/uJUAaU).
+please consider contributing with [Patreon](https://www.patreon.com/dessant),
+[PayPal](https://www.paypal.me/ArminSebastian) or [Bitcoin](https://goo.gl/uJUAaU).
 
 ## How It Works
 
@@ -139,5 +139,7 @@ Type: [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Globa
 
 ## License
 
-Probot Messages is released under the terms of the MIT License.
-Please refer to the [LICENSE](LICENSE) file.
+Copyright (c) 2018-2019 Armin Sebastian
+
+This software is released under the terms of the MIT License.
+See the [LICENSE](LICENSE) file for further information.
