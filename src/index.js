@@ -59,7 +59,7 @@ async function sendMessage(
   message,
   {update = '', updateAfterDays = 7, owner, repo} = {}
 ) {
-  if (!context || !title || !message) {
+  if (!app || !context || !title || !message) {
     throw new Error('Required parameter missing');
   }
 
@@ -74,7 +74,7 @@ async function sendMessage(
     owner,
     repo,
     state: 'open',
-    creator: `${appName}[bot]`,
+    creator: `app/${appName}`,
     per_page: 100
   });
 
