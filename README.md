@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/npm/v/probot-messages.svg?colorB=007EC6)](https://www.npmjs.com/package/probot-messages)
 
 A [Probot](https://github.com/probot/probot) extension for communicating with
-repository maintainers. It's used for delivering messages that
+repository maintainers. It is used for delivering messages that
 require user action to ensure the correct operation of the app, such as
 configuring the app after installation, or fixing configuration errors.
 
@@ -12,8 +12,10 @@ configuring the app after installation, or fixing configuration errors.
 
 The continued development of Probot Messages is made possible
 thanks to the support of awesome backers. If you'd like to join them,
-please consider contributing with [Patreon](https://www.patreon.com/dessant),
-[PayPal](https://www.paypal.me/ArminSebastian) or [Bitcoin](https://goo.gl/uJUAaU).
+please consider contributing with
+[Patreon](https://armin.dev/go/patreon?pr=probot-messages&src=repo),
+[PayPal](https://armin.dev/go/paypal?pr=probot-messages&src=repo) or
+[Bitcoin](https://armin.dev/go/bitcoin?pr=probot-messages&src=repo).
 
 ## How It Works
 
