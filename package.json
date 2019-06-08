@@ -12,18 +12,21 @@
   "main": "src/index.js",
   "scripts": {
     "docs": "documentation lint && documentation readme --markdown-toc false -c docs.yml -s API",
-    "update": "ncu --upgrade --upgradeAll && yarn",
+    "update": "ncu --upgrade && yarn",
     "push": "git push --follow-tags origin master",
-    "release": "standard-version && yarn run push"
+    "release": "standard-version"
   },
   "files": [
     "src"
   ],
+  "peerDependencies": {
+    "probot": "^9.2.13"
+  },
   "devDependencies": {
-    "documentation": "^9.1.1",
-    "npm-check-updates": "^2.15.0",
-    "prettier": "^1.15.3",
-    "standard-version": "^4.4.0"
+    "documentation": "^11.0.0",
+    "npm-check-updates": "^3.1.10",
+    "prettier": "^1.18.2",
+    "standard-version": "^6.0.1"
   },
   "engines": {
     "node": ">=8.12.0"

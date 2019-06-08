@@ -69,9 +69,12 @@ async function sendMessage(
   }
 
   const appGh = await app.auth();
-  const {name: appName, html_url: appUrl} = (await appGh.apps.get({})).data;
+  const {
+    name: appName,
+    html_url: appUrl
+  } = (await appGh.apps.getAuthenticated()).data;
 
-  const {data: issues} = await context.github.issues.getForRepo({
+  const {data: issues} = await context.github.issues.listForRepo({
     owner,
     repo,
     state: 'open',
@@ -103,7 +106,7 @@ async function sendMessage(
       const {data: commentData} = await context.github.issues.createComment({
         owner,
         repo,
-        number: issue.number,
+        issue_number: issue.number,
         body: update
       });
       commentId = commentData.id;
