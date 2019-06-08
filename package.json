@@ -1,6 +1,6 @@
 {
   "name": "probot-messages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Probot extension for communicating with repository maintainers.",
   "author": "Armin Sebastian",
   "license": "MIT",
