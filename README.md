@@ -1,21 +1,9 @@
 # Probot Messages
 
-[![Build Status](https://img.shields.io/travis/com/dessant/probot-messages/master.svg)](https://travis-ci.com/dessant/probot-messages)
-[![Version](https://img.shields.io/npm/v/probot-messages.svg?colorB=007EC6)](https://www.npmjs.com/package/probot-messages)
-
 A [Probot](https://github.com/probot/probot) extension for communicating with
 repository maintainers. It is used for delivering messages that
 require user action to ensure the correct operation of the app, such as
 configuring the app after installation, or fixing configuration errors.
-
-## Supporting the Project
-
-The continued development of Probot Messages is made possible
-thanks to the support of awesome backers. If you'd like to join them,
-please consider contributing with
-[Patreon](https://armin.dev/go/patreon?pr=probot-messages&src=repo),
-[PayPal](https://armin.dev/go/paypal?pr=probot-messages&src=repo) or
-[Bitcoin](https://armin.dev/go/bitcoin?pr=probot-messages&src=repo).
 
 ## How It Works
 
@@ -142,7 +130,7 @@ Type: [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Globa
 
 ## License
 
-Copyright (c) 2018-2019 Armin Sebastian
+Copyright (c) 2018-2021 Armin Sebastian
 
 This software is released under the terms of the MIT License.
 See the [LICENSE](LICENSE) file for further information.
